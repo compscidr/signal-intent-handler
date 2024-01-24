@@ -1,11 +1,10 @@
-package io.rightmesh.sampleintentreceiver;
+package com.jasonernst.sampleintentreceiver;
+
+import static com.jasonernst.sampleintentreceiver.InstrumentedTestReceiver.XHIST_INTENT;
 
 import android.content.IntentFilter;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.webkit.PluginStub;
-
-import static io.rightmesh.sampleintentreceiver.InstrumentedTestReceiver.XHIST_INTENT;
 
 public class MainActivity extends AppCompatActivity {
 

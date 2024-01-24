@@ -1,4 +1,4 @@
-package io.rightmesh.sampleintentreceiver;
+package com.jasonernst.sampleintentreceiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
