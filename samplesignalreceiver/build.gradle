@@ -5,7 +5,7 @@ plugins {
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
-    implementation 'com.google.guava:guava:33.4.5-jre'
+    implementation 'com.google.guava:guava:33.4.6-jre'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.13.2'
