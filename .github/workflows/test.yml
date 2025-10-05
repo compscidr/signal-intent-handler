@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v5
       - run: echo "The ${{ github.repository }} repository has been cloned."
       - run: echo "Setting up JDK"
-      - name: set up JDK 11
+      - name: set up JDK
         uses: actions/setup-java@v5
         with:
           java-version: '17'
